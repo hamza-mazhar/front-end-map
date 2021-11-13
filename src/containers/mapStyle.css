@@ -1,0 +1,10 @@
+.leaflet-container {
+    height: 400px;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.leaflet-div-icon {
+    background: transparent;
+    border: none;
+}

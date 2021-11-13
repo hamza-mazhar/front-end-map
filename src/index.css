@@ -1,0 +1,71 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.tasktab-heading-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.personal-Info-Card {
+  margin-bottom: 0.5rem;
+}
+
+.personalInfo-Icon {
+  margin-right: 0.5rem;
+}
+.personalInfo-Text {
+  display: flex;
+  padding-bottom: 0.3rem;
+}
+.sub-heading {
+  font-weight: bold;
+  padding-right: 0.5rem;
+
+}
+.modal-content{
+   display: flex;
+   align-items: flex-start;
+   margin: 20px;
+    width: 100%;
+ }
+
+
+ .image_modal{
+   height: 300px;
+   width: 300px;
+     border-radius: 10px;
+
+ }
+ .obj-content{
+     margin: 4%;
+ }
+
+@media only screen and (max-width: 800px) {
+    .ant-modal{
+        width: 80%;
+    }
+    .image_modal {
+        height: 200px;
+        width: 180px;
+    }
+    .modal-content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 20px;
+        width: 100%;
+    }
+}
